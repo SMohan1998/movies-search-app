@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { searchMovies } from '../services/omdbApi.js';
-import MovieCard from '../components/MovieCard.jsx';
-import Pagination from '../components/Pagination.jsx';
+import MovieCard from '../Components/MovieCard.jsx';
+import Pagination from '../Components/Pagination.jsx';
 export default function SearchPage({ addToFavorites, favorites }) {
   const [query, setQuery] = useState('');
   const [type, setType] = useState('');
