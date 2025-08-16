@@ -1,4 +1,4 @@
-
+import MovieCard from "../components/MovieCard";
 export default function Favorites({ favorites, removeFromFavorites }) {
   return (
     <section>

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Navbar from './Components/Navbar.jsx';
+import Navbar from './components/Navbar.jsx';
 import SearchPage from './pages/SearchPage.jsx';
 import MovieDetails from './pages/MovieDetails.jsx';
 import Favorites from './pages/Favorites.jsx';
